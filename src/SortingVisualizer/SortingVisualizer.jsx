@@ -345,7 +345,7 @@ export default class SortingVisualizer extends React.Component{
                     key={idx}
                     style={{
                     backgroundColor: PRIMARY_COLOR,
-                    height: `calc(.13 * ${value}vh)`,
+                    height: `calc(.1 * ${value}vh)`,
                     }}></div>
                 ))}
             </div>
