@@ -19,6 +19,7 @@ export default class SortingVisualizer extends React.Component{
 
     /* When page loads, we generate array */
     componentDidMount(){
+        document.title = "Sorting Visualizer";
         this.resetArray();
     }
 
@@ -321,6 +322,7 @@ export default class SortingVisualizer extends React.Component{
     const {array} = this.state;
 
     return (
+
         <div className="array-container">
             <div className="buttons">
                 <button onClick={() => this.resetArray()}>Generate New Array</button>
